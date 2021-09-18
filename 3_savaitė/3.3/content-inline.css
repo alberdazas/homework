@@ -1,0 +1,38 @@
+div {
+    background-color: chocolate;
+    /* width ir height inline yra ignoruojami */
+    width: 500px;
+    height: 300px;
+}
+
+#turinys-paprastas {
+    background-color: chocolate;
+    width: 500px;
+    height: 300px;
+}
+
+#turinys-padding {
+    background-color: chocolate;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+}
+
+#turinys-su-padding-ir-table {
+    background-color: chocolate;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+#turinys-su-padding-ir-table-ir-margen {
+    background-color: chocolate;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+    margin: 30px;
+}

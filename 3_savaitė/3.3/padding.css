@@ -1,0 +1,20 @@
+#deze-padding-bendras {
+    padding: 10px;
+}
+
+#specifinis-padding-deze {
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+
+#deze-padding-bendras-specifinis {
+ /* prasideda nuo top ir pagal laikrodžio rodyklę */
+    padding: 20px 25px 30px 15px;
+}
+
+/* čia vertikaliai ir horizontaliai naudojami paddingai */
+#horizontaliai-vertikaliai {
+    padding: 20px 30px;
+}

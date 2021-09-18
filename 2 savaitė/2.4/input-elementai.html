@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Input elementai</title>
+</head>
+<body>
+    <!-- Get paprastesniems, taip pat gali nesvarbiems dokumentams -->
+    <form action="http://barbora.lt" method="GET">
+        <div>
+            <label>
+                Adresas:
+                <input type="text" placeholder="Namo nr., Gatvė, Miestas" name="Address"/>
+            </label>
+        </div>
+        <div>
+            <label for="Pasto_kodas">Pašto kodas:</label>
+            <input type="text" placeholder="LT-XXXXX" id="Pasto_kodas" name="Post_code"/>
+            <label for="Pasto_kodas"><abbr title="Laukas privalomas">*</abbr></label>
+        </div>
+
+        <button>Pateikti formą</button>
+
+    </form>
+    <!-- POST, kada neužtenka vienos eilutės duomenų ar duomenys turi būti paslėpti ir panašiai. Jautresniems duomenims naudojama  -->
+    <form action="http://barbora.lt" method="POST">
+        <div>
+            <label>
+                Adresas:
+                <input type="text" placeholder="Namo nr., Gatvė, Miestas" name="Address1"/>
+            </label>
+        </div>
+        <div>
+            <label for="Pasto_kodas2">Pašto kodas:</label>
+            <input type="text" placeholder="LT-XXXXX" id="Pasto_kodas2" name="Post_code1"/>
+            <label for="Pasto_kodas2"><abbr title="Laukas privalomas">*</abbr></label>
+        </div>
+
+        <button>Pateikti formą</button>
+
+    </form>
+</body>
+
+</html>

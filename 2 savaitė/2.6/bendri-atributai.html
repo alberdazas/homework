@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bendri atributai</h1>
+
+    <form id="puiki forma">
+        <!-- Sufokusuoja pasirinktą lauką užkrovus puslapį -->
+        <div>
+            <label>
+                "autofocus":
+                <input type="text" name="autofocus" autofocus/>
+            </label>
+        </div>
+        <!-- galima tik skaityti, keisti negalima. Tarkim ID priskytimui užejus į puslapį. -->
+        <div>
+            <label>
+                "readonly":
+                <input type="text" name="readonly" readonly value="456789 Bet koks tekstas"/>
+            </label>
+        </div>
+        <!-- Neveiksnus laukas, pvz kai turim keleta imputų ir kai vienas imput priklauso nuo kitų inputų -->
+        <!-- Taip pat nesunčiamas į serverį -->
+        <div>
+            <label>
+                "disable":
+                <input type="text" name="disable" disabled value="pilka reikšmė"/>
+            </label>
+        </div>
+        <!-- nurodo inputo ploti simboliais. Neriboja pagal pateiktą dydį. geriau naudoti CSS. -->
+        <div>
+            <label>
+                "size":
+                <input type="text" name="size" size="7"/>
+            </label>
+        </div>
+      
+        <div>
+            <label>
+                "autocomplete":
+                <input type="text" name="name" autocomplete/>
+            </label>
+        </div>
+
+
+        <button>Pateikti</button>
+    </form>
+<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+<!-- Galima prijunkti į formą nesanti formoje elementą -->
+<div>
+    <label>
+        "form":
+        <input type="text" name="form" form="puiki forma"/>
+    </label>
+</div>
+
+
+
+</body>
+</html>

@@ -1,5 +1,9 @@
 /* for all */
 
+*:focus-visible {
+    outline: none;
+}
+
 /* header */
 
 .first-line {
@@ -56,8 +60,6 @@ nav {
     font-weight: 600;
     font-size: 15px;
 }
-
-#navigation ul {}
 
 #navigation a[href] {
     color: black;

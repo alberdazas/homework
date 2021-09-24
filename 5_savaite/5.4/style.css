@@ -1,0 +1,91 @@
+:root {
+    --main-bg-color:rgb(143, 14, 248);
+    --main576-bg-color: rgb(255, 140, 0);
+    --main768-bg-color: rgb(26, 167, 136);
+    --main992-bg-color: rgb(139, 12, 118);
+    --main1200-bg-color: rgb(49, 184, 44);
+    --main1400-bg-color: rgb(218, 84, 31);
+}
+
+html, body, main {
+    height: 100%;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: 0;
+    
+}
+
+main {
+     background-color: royalblue;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+
+}
+.first-body {
+    width: 75%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+}
+
+.second-body {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    height: 75px;
+}
+
+#color1 {
+    background-color: yellow;
+    align-content: stretch;
+    height: 75px;
+    flex:1;
+
+}
+
+#color2 {
+    background-color: green;
+    align-content: stretch;
+    height: 75px;
+    flex:1;
+}
+
+#color3 {
+    background-color: red;
+    align-content: stretch;
+    height: 75px;
+    flex:1;
+}
+@media (min-width: 576px) {
+    body {
+        background-color: var(--main576-bg-color);
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: var(--main768-bg-color);
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-color: var(--main992-bg-color);
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: var(--main1200-bg-color);
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-color: var(--main1400-bg-color);
+    }
+}

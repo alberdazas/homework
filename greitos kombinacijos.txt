@@ -2,7 +2,6 @@ Klavišų kombinacijos
 Windows
 ALT + TAB - perjungia aktyvų langą.
 CTRL + L - perkrauna tinklapį.
-CTRL + X - iškirpti (cut).
 CTRL + V - įklijuoti (paste).
 ALT + SHIFT - pakeičia kalbą.
 Chrome
